@@ -1,0 +1,24 @@
+{
+    "name": "sdd/bc",
+    "type": "Application",
+    "autoload": {
+        "psr-4": {
+            "Bc\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.0",
+        "monolog/monolog": "^1.17",
+        "myclabs/php-enum": "^1.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stefan Doellner",
+            "email": "sdd@doellner.net"
+        }
+    ]
+}
